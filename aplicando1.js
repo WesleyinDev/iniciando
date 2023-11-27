@@ -118,6 +118,7 @@ function aplicar(pessoas) {
     }else {
         console.log('ERROR')
     }
+    console.log(familia)
 }
 
 let wel4 = 'O MAIS PERFEITO APENAS'
