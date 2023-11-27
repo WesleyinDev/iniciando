@@ -23,6 +23,7 @@ function aplicar(pessoas) {
     let wel3 = 'O unico perfeito da familia. '
     let ex = 'Elizabeth'
     let doen = ' Essa dai é doente mané, maluca da cabeça'
+    let ex2 = 'Samara'
 
     if (familia.length > 5) {
         console.log('Essa família é meio grandinha em!!');
@@ -110,7 +111,13 @@ function aplicar(pessoas) {
     }else {
         console.log(tente)
     }
-
+    familia.push(ex2)
+    if(familia[7] === 'Samara') {
+        console.log('E temos também a ' + ex2 + ', Que também é ex do ' + wel4 )
+        console.log('Mas abafe o caso')
+    }else {
+        console.log('ERROR')
+    }
 }
 
 let wel4 = 'O MAIS PERFEITO APENAS'
